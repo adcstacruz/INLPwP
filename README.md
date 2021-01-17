@@ -65,12 +65,15 @@ Note: activate the `inlp` environment, if not activated.
 
 
 
-## 1 Packages - MacOS and Linux  
+## 1. Packages - MacOS and Linux  
 ```
 $(inlp) conda install -c conda-forge pandas scikit-learn matplotlib wordcloud textblob spacy gensim nltk 
 ``` 
 
-## 1 Packages - Windows
+END OF PACKAGE INSTALLATION FOR MAC/LINUX USERS. Please proceed to 2. SpaCy model
+
+## 1. Packages - Windows
+IF YOU ARE USING WINDOWS, please follow the instructions below. 
 
 **Install certain packages from the default channels/where these packages are available.**
 
@@ -118,14 +121,14 @@ Under the hood, spacy uses a model which we should download. We'll use the (smal
 $(inlp) python -m spacy download en_core_web_sm 
 ```
 
-If you encountered an error when downloading, please download `en_core_web_md-2.3.1.tar.gz` which is posted in our google classroom. 
+**If you encountered an error** -- specifically `ReadTimeoutError`, please download `en_core_web_sm-2.3.1.tar.gz` which is posted in our google classroom. 
 
 ```
-$(inlp) pip install PATH_TO_FILE\en_core_web_md-2.3.1.tar.gz
+$(inlp) pip install PATH_TO_FILE\en_core_web_sm-2.3.1.tar.gz
 ```
 For example:
 ```
-$(inlp) pip install C:\Users\user\Downloads\en_core_web_md-2.3.1.tar.gz
+$(inlp) pip install C:\Users\user\Downloads\en_core_web_sm-2.3.1.tar.gz
 ```
 
 ## 3 NLTK libraries
