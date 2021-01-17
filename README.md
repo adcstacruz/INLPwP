@@ -123,6 +123,8 @@ $(inlp) python -m spacy download en_core_web_sm
 
 **If you encountered an error** -- specifically `ReadTimeoutError`, please download `en_core_web_sm-2.3.1.tar.gz` which is posted in our google classroom. 
 
+Then, install them through pip. following the command below.
+
 ```
 $(inlp) pip install "PATH_TO_FILE\en_core_web_sm-2.3.1.tar.gz"
 ```
