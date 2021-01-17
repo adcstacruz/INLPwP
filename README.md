@@ -94,22 +94,22 @@ $(inlp) conda install smart_open==2.0.0
 
 **Installing pillow**
 
-We'll install pillow through python wheels. First, download the wheel in this [link](https://www.lfd.uci.edu/~gohlke/pythonlibs/#wordcloud).
-Download `Pillow-8.1.0-cp37-cp37m-win_amd64.whl` if your machine is 64-bit. If you are using a 32-bit machine, please download `Pillow‑8.1.0‑cp37‑cp37m‑win32.whl`.
+We'll install pillow through python wheels. First, download the wheel which is posted in our google classroom.
 
+Download `Pillow-8.1.0-cp37-cp37m-win_amd64.whl` if your machine is 64-bit. If you are using a 32-bit machine, please download `Pillow‑8.1.0‑cp37‑cp37m‑win32.whl`.
 
 NOTE: Please check where the file was downloaded
 
-Install the wheel through pip. Note that you should have activated your environment. To install, the command is:
+After downloading the wheel from google classroom, install the wheel through pip. Note that you should have activated your environment. To install, the command is:
 
 ```
-$(inlp) pip install --no-deps --force-reinstall --user PATH_TO_FILE\WHEEL_PACKAGE
+$(inlp) pip install --no-deps --force-reinstall --user "PATH_TO_FILE\WHEEL_PACKAGE
 ```
 
 For example, if the I have saved the wheel package in "C:\Users\user\Downloads". The command will be: 
 
 ```
-$(inlp) pip install --no-deps --force-reinstall --user C:\Users\user\Downloads\Pillow-8.1.0-cp37-cp37m-win_amd64.whl
+$(inlp) pip install --no-deps --force-reinstall --user "C:\Users\user\Downloads\Pillow-8.1.0-cp37-cp37m-win_amd64.whl"
 ```
 
 
@@ -124,11 +124,11 @@ $(inlp) python -m spacy download en_core_web_sm
 **If you encountered an error** -- specifically `ReadTimeoutError`, please download `en_core_web_sm-2.3.1.tar.gz` which is posted in our google classroom. 
 
 ```
-$(inlp) pip install PATH_TO_FILE\en_core_web_sm-2.3.1.tar.gz
+$(inlp) pip install "PATH_TO_FILE\en_core_web_sm-2.3.1.tar.gz"
 ```
 For example:
 ```
-$(inlp) pip install C:\Users\user\Downloads\en_core_web_sm-2.3.1.tar.gz
+$(inlp) pip install "C:\Users\user\Downloads\en_core_web_sm-2.3.1.tar.gz"
 ```
 
 ## 3 NLTK libraries
